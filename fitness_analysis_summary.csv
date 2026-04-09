@@ -1,0 +1,22 @@
+Metric,Gym,Home
+Number of Comments,106,116
+Average Word Count,29.1,30.3
+Average Sentiment,0.209,0.310
+Positive Sentiment %,51.9%,62.9%
+Neutral Sentiment %,30.2%,16.4%
+Negative Sentiment %,17.9%,20.7%
+Avg Motivation Keywords,1.1,0.9
+External Motivation %,3.8%,7.8%
+Internal Motivation %,17.9%,22.4%
+Mixed Motivation %,10.4%,12.9%
+Avg Equipment Mentions,0.4,0.3
+Gym Equipment Focus %,8.5%,0.9%
+Home Equipment Focus %,3.8%,6.9%
+Avg Positive Words,0.4,0.7
+Avg Negative Words,0.2,0.2
+Net Satisfaction Score,0.3,0.5
+Very Satisfied %,7.5%,13.8%
+Satisfied %,11.3%,25.9%
+Neutral %,70.8%,51.7%
+Dissatisfied %,10.4%,7.8%
+Very Dissatisfied %,0.0%,0.9%

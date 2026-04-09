@@ -1,0 +1,7 @@
+Validation Check,Description,Gym Pass Rate (%),Home Pass Rate (%)
+Text Length Check,Ensures review has 5-500 words of meaningful content,100.0,100.0
+Motivation Content,Checks for motivation keywords (external/internal),30.2,33.6
+Equipment Mentions,Validates equipment mentions match workout type,94.3,99.1
+Satisfaction Expression,Identifies satisfaction/dissatisfaction signals,34.0,50.9
+Spam Detection,"Filters promotional content, URLs, and spam",100.0,100.0
+Overall Validation,Passes all five validation checks,14.2,18.1
