@@ -20,6 +20,36 @@ import base64
 import warnings
 warnings.filterwarnings('ignore')
 
+import nltk
+import os
+import sys
+
+# Download NLTK data to a persistent location
+NLTK_DATA_PATH = os.path.join(os.path.expanduser("~"), "nltk_data")
+os.makedirs(NLTK_DATA_PATH, exist_ok=True)
+nltk.data.path.append(NLTK_DATA_PATH)
+
+# Download required NLTK packages
+try:
+    nltk.data.find('sentiment/vader_lexicon.zip')
+except LookupError:
+    nltk.download('vader_lexicon', download_dir=NLTK_DATA_PATH, quiet=True)
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt', download_dir=NLTK_DATA_PATH, quiet=True)
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords', download_dir=NLTK_DATA_PATH, quiet=True)
+
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger', download_dir=NLTK_DATA_PATH, quiet=True)
+
 # Page configuration
 st.set_page_config(
     page_title="Fitness Workout Analysis",
